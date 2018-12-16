@@ -1,0 +1,60 @@
+% !TEX TS-program = XeLaTeX
+\documentclass[11pt, oneside]{book}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex
+
+% improve look of graphics
+\usepackage{float}
+%\floatstyle{boxed}
+
+\usepackage{wrapfig}
+
+% change the definition of \section to automatically include a \FloatBarrier
+\usepackage[section]{placeins}
+
+%support tables as delivered from pandoc
+\usepackage{booktabs}
+\usepackage {longtable}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{import}                                   % allow for relative paths later
+
+%SetFonts
+\usepackage{fontspec}
+\setmainfont{Charter}
+\setsansfont[Scale=MatchLowercase]{Lucida Grande}
+\setmonofont[Scale=MatchLowercase]{Monaco}
+ 
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{makeidx}
+
+\title{IDPro Body of Knowledge - Demo}
+\author{Principal Editor: TBD}
+%\date{}							% Activate to display a given date or no date
+
+\setcounter{secnumdepth}{3}
+
+\begin{document}
+\maketitle
+\pagenumbering{gobble}
+\newpage
+\pagenumbering{roman}
+
+\setcounter{tocdepth}{1}   % just chapters and sections = 1
+\tableofcontents
+\newpage
+\listoffigures
+\listoftables
+\onecolumn
+\pagenumbering{arabic}
+% --- end of template ---
+
+\input{toc.tex}
+
+\end{document}
+
