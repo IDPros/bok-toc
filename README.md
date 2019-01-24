@@ -1,6 +1,11 @@
-# idpro-toc
+# Body of Knowledge - Table of Contents - Work in progress
 Collaboration on the table of contents for IDPro Body of Knowledge
 
+To propose a change to the TOC edit the MS Word document, toc.docx.
+When ready submit a pull request.
+The maintainer will run the script, which will generate the .pdf version with new section numbers.
+
+## History
 Text was downloaded from ether pad into IDproTOC.txt.
 
 The clean.sh script (in the scripts folder) converted it to a markdown format.
