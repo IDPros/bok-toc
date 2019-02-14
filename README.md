@@ -5,6 +5,11 @@ To propose a change to the TOC edit the MS Word document, toc.docx.
 When ready submit a pull request.
 The maintainer will run the script, which will generate the .pdf version with new section numbers.
 
+## Maintenance
+To run the script from the main directory run  `./scripts/totex.sh`
+
+This will create toc.tex, toc.md and maintop.pdf.
+
 ## History
 Text was downloaded from ether pad into IDproTOC.txt.
 

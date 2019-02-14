@@ -25,16 +25,14 @@
 
 %SetFonts
 \usepackage{fontspec}
-\setmainfont{Charter}
-\setsansfont[Scale=MatchLowercase]{Lucida Grande}
-\setmonofont[Scale=MatchLowercase]{Monaco}
- 
+\input{fonts.tex}  
+
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \usepackage{makeidx}
 
-\title{IDPro Body of Knowledge - Demo}
-\author{Principal Editor: TBD}
+\title{IDPro Body of Knowledge Table of Contents \\\
+Working DRAFT}
 %\date{}							% Activate to display a given date or no date
 
 \setcounter{secnumdepth}{3}
@@ -48,8 +46,6 @@
 \setcounter{tocdepth}{4}   % just chapters and sections = 1
 \tableofcontents
 \newpage
-\listoffigures
-\listoftables
 \onecolumn
 \pagenumbering{arabic}
 % --- end of template ---

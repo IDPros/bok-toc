@@ -1,46 +1,60 @@
-# Introduction
+Introduction
+============
 
-## Information security
+Information security
+--------------------
 
 ### Trust (say more - what is this?)
 
-## Privacy
+Privacy
+-------
 
-## Identification and authentication
+Identification and authentication
+---------------------------------
 
 ### Context and Identity
 
 ### Levels of Assurance
 
-## The Business Case for IAM
+The Business Case for IAM
+-------------------------
 
 ### Workforce IAM
 
 ### Consumer/Citizen IAM
 
-# Digital Identity
+Digital Identity
+================
 
-## Definition
+Definition
+----------
 
 ### Reputation
 
 ### Laws of Identity - this sounds like jurisdictions and real laws - is that the intent?
 
-## Identifiers
+Identifiers
+-----------
 
-## Digital Identity Lifecycle ?
+Digital Identity Lifecycle ?
+----------------------------
 
-## Mapping to human or device
+Mapping to human or device
+--------------------------
 
-## Proofing , Binding or Registration?
+Proofing , Binding or Registration?
+-----------------------------------
 
 ### verification/validation
 
-## Credentials
+Credentials
+-----------
 
-# Access Control
+Access Control
+==============
 
-## Authentication
+Authentication
+--------------
 
 ### Dynamic Authentication (risk-based)
 
@@ -58,13 +72,14 @@
 
 ### Session Management
 
-## Authorization
+Authorization
+-------------
 
 ### Resources to protect
 
 ### Authorisation
 
-#### ACL’s
+#### ACL's
 
 #### RBAC
 
@@ -76,19 +91,25 @@
 
 #### Alignment to Risk Management
 
-# Regulations And Laws
+Regulations And Laws
+====================
 
-## Privacy (generic)
+Privacy (generic)
+-----------------
 
-## Survey of Jurisdictions
+Survey of Jurisdictions
+-----------------------
 
-### SOX, HiPPA, GDPR, CBPR etc.
+### SOX, HIPAA, GDPR, CBPR etc.
 
-## Consent management
+Consent management
+------------------
 
-# Workforce IAM / Internal IAM
+Workforce IAM / Internal IAM
+============================
 
-## IAM processes
+IAM processes
+-------------
 
 ### Joiner-Mover-Leaver
 
@@ -96,35 +117,44 @@
 
 ### Provisioning (On-boarding and Off-boarding)
 
-### Handling Business partners’ people
+### Handling Business partners' people
 
 ### Re-certification
 
-## Analytics and Intelligence
+Analytics and Intelligence
+--------------------------
 
-# Consumer/Citizen IAM
+Consumer/Citizen IAM
+====================
 
-## Public sector vs. private sector
+Public sector vs. private sector
+--------------------------------
 
-## Social media
+Social media
+------------
 
-## Consumer journey (identification to loyal customer)
+Consumer journey (identification to loyal customer)
+---------------------------------------------------
 
 ### Registration of consumers
 
 ### Authentication assurance (meeting LoA requiremetns)
 
-### Digital legacy - handling deceased persons’ digital ID
+### Digital legacy - handling deceased persons' digital ID
 
-## Self-Sovereign Identity
+Self-Sovereign Identity
+-----------------------
 
 ### Blockchain ID
 
-# Non-Human Entity
+Non-Human Entity
+================
 
-## Operational Technology (OT)
+Operational Technology (OT)
+---------------------------
 
-## IoT devices
+IoT devices
+-----------
 
 ### IoT Sectors
 
@@ -146,13 +176,17 @@
 
 #### Utilities
 
-## RPA / robotics
+RPA / robotics
+--------------
 
-## Security requirements
+Security requirements
+---------------------
 
-# IAM Architecture And Solutions
+IAM Architecture And Solutions
+==============================
 
-## Business System
+Business System
+---------------
 
 ### Business Processes
 
@@ -176,7 +210,8 @@
 
 #### Access Control Requirement
 
-## Information
+Information
+-----------
 
 ### Identifiers and Credentials
 
@@ -202,7 +237,8 @@
 
 ### Public Key Infrastructure
 
-## Applications
+Applications
+------------
 
 ### Consoles
 
@@ -212,7 +248,7 @@
 
 ### Integration Styles
 
-#### Direct “Bind”
+#### Direct "Bind"
 
 #### Import users
 
@@ -242,7 +278,8 @@
 
 ##### Anonymous only
 
-## Technical
+Technical
+---------
 
 ### Repositories
 
@@ -318,7 +355,7 @@
 
 #### FIDO U2F and UAF
 
-### Enterpise control of “Cloud”
+### Enterpise control of "Cloud"
 
 #### Public Cloud vs Private Cloud
 
@@ -326,40 +363,56 @@
 
 #### IPSec VPN
 
-## Recommended Practices
+Recommended Practices
+---------------------
 
 ### Design for security
 
-## Governance and Administration
+Governance and Administration
+-----------------------------
 
 ### Audit
 
 ### Monitoring
 
-# Operational Considerations
+Operational Considerations
+==========================
 
-## Account recovery
+Account recovery
+----------------
 
-## Call centers
+Call centers
+------------
 
-## Engagement of user for their own security
+Engagement of user for their own security
+-----------------------------------------
 
-## Security events and operations
+Security events and operations
+------------------------------
 
-# Project Management
+Project Management
+==================
 
-## New implementations
+New implementations
+-------------------
 
-## Migration scenario’s
+Migration scenario's
+--------------------
 
-# IAM Knowledge Sharing
+IAM Knowledge Sharing
+=====================
 
-## IDpro
+IDpro
+-----
 
-## Gartner
+Gartner
+-------
 
-## KuppingerCole
+KuppingerCole
+-------------
 
-## IIW
+IIW
+---
 
-## Bibliography
+Bibliography
+------------
