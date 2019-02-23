@@ -6,3 +6,4 @@
 log.txt
 *.lof
 *.lot
+*.DS_Store
