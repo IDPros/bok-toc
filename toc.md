@@ -31,21 +31,21 @@ Definition
 
 ### Reputation
 
-### Laws of Identity - this sounds like jurisdictions and real laws - is that the intent?
+### Laws of Identity (this sounds like jurisdictions and real laws - is that the intent?)
 
 Identifiers
 -----------
 
-Digital Identity Lifecycle ?
-----------------------------
+Digital Identity Lifecycle (?)
+------------------------------
 
 Mapping to human or device
 --------------------------
 
-Proofing , Binding or Registration?
------------------------------------
+Proofing, Binding or Registration (?)
+-------------------------------------
 
-### verification/validation
+### Verification/Validation
 
 Credentials
 -----------
@@ -60,13 +60,13 @@ Authentication
 
 ### Multi-Factor Authentication
 
-### Single Sign-on within a domain
+### Single Sign-on Within a Domain
 
-### Centralised authentication service
+### Centralised Authentication Service
 
 ### Federated Authentication (between domains)
 
-### Device identity for corroboration
+### Device Identity for Corroboration
 
 ### Fast Identity Online (FIDO) and its cousins
 
@@ -75,7 +75,7 @@ Authentication
 Authorization
 -------------
 
-### Resources to protect
+### Resources to Protect
 
 ### Authorisation
 
@@ -83,7 +83,7 @@ Authorization
 
 #### RBAC
 
-#### ABAC / dynamic access management
+#### ABAC / Dynamic Access Management
 
 ##### Policy Management solutions
 
@@ -91,7 +91,9 @@ Authorization
 
 #### Alignment to Risk Management
 
-Regulations And Laws
+#### System Accounts
+
+Regulations and Laws
 ====================
 
 Privacy (generic)
@@ -102,22 +104,22 @@ Survey of Jurisdictions
 
 ### SOX, HIPAA, GDPR, CBPR etc.
 
-Consent management
+Consent Management
 ------------------
 
 Workforce IAM / Internal IAM
 ============================
 
-IAM processes
+IAM Processes
 -------------
 
 ### Joiner-Mover-Leaver
 
-### HR ownership
+### HR Ownership
 
 ### Provisioning (On-boarding and Off-boarding)
 
-### Handling Business partners' people
+### Handling Business Partners' People
 
 ### Re-certification
 
@@ -127,20 +129,20 @@ Analytics and Intelligence
 Consumer/Citizen IAM
 ====================
 
-Public sector vs. private sector
+Public Sector vs. Private Sector
 --------------------------------
 
-Social media
+Social Media
 ------------
 
-Consumer journey (identification to loyal customer)
+Consumer Journey (identification to loyal customer)
 ---------------------------------------------------
 
-### Registration of consumers
+### Registration of Consumers
 
-### Authentication assurance (meeting LoA requiremetns)
+### Authentication Assurance (meeting LoA requirements)
 
-### Digital legacy - handling deceased persons' digital ID
+### Digital Legacy - handling deceased persons' digital ID
 
 Self-Sovereign Identity
 -----------------------
@@ -153,7 +155,7 @@ Non-Human Entity
 Operational Technology (OT)
 ---------------------------
 
-IoT devices
+IoT Devices
 -----------
 
 ### IoT Sectors
@@ -164,15 +166,15 @@ IoT devices
 
 #### Implants
 
-#### Plant automation
+#### Plant Automation
 
 #### Vehicle
 
-#### Smart cities
+#### Smart Cities
 
-#### Agricuture
+#### Agriculture
 
-#### Buildiing/Industrial
+#### Building/Industrial
 
 #### Utilities
 
@@ -182,7 +184,7 @@ RPA / robotics
 Security requirements
 ---------------------
 
-IAM Architecture And Solutions
+IAM Architecture and Solutions
 ==============================
 
 Business System
@@ -190,93 +192,23 @@ Business System
 
 ### Business Processes
 
-#### Provisioning accounts
-
-#### Changes to accounts
-
-#### Termination of accounts
-
 #### Recertification of accounts
 
-### Requirements
+Information/Data Architecture
+-----------------------------
 
-#### High Availability Requirement
+Application Portfolio
+---------------------
 
-#### High Performance Requirement
+### APIs
 
-#### Auditability
+#### HTTP
 
-#### Recoverability
+#### S/LDAP
 
-#### Access Control Requirement
+#### RACF
 
-Information
------------
-
-### Identifiers and Credentials
-
-### Protection of secrets
-
-#### Data Encoding
-
-#### Hashing
-
-#### Symetric Encryption
-
-#### Asymetric Encryption
-
-### Schemas
-
-#### Attributes
-
-#### Data types
-
-### Segmentation
-
-#### Organizational Units
-
-### Public Key Infrastructure
-
-Applications
-------------
-
-### Consoles
-
-### Command Line
-
-### Approval workflow
-
-### Integration Styles
-
-#### Direct "Bind"
-
-#### Import users
-
-##### Local access control
-
-#### Role based
-
-#### Provisioning
-
-##### Connectors
-
-##### JIT Federation
-
-### DevOps Considerations
-
-### Session Management
-
-#### Centralized
-
-##### Memory or DB backed SSO Cookies/Tokens)
-
-#### Externalized
-
-##### JWT Tokens
-
-#### None
-
-##### Anonymous only
+#### XACML
 
 Technical
 ---------
@@ -293,41 +225,15 @@ Technical
 
 ##### Historical note - X.500
 
-##### SLAPD and its descendents
+##### SLAPD and its descendants
 
-##### Partitioning
+#### NoSQL databases
 
-##### Replication Techniques
+##### Graph Databases
 
-##### Recovery
+#### Identity Provider (IdP) Trends
 
-###### Local failures
-
-###### Disaster Recovery
-
-###### Failover
-
-##### Audit and Forensics
-
-##### Inheritance and structure
-
-##### LDAPv3
-
-###### Access Control
-
-###### Configuration for performance
-
-##### Active Directory
-
-###### Multi-Trust Relationships
-
-###### Domain Controllers
-
-###### Change tracking (Timestamp)
-
-#### NOSQL Databases
-
-#### Distributed Ledger (Blockchain)
+##### Distributed Ledger (Blockchain)
 
 ### Identity Provider Services
 
@@ -355,7 +261,7 @@ Technical
 
 #### FIDO U2F and UAF
 
-### Enterpise control of "Cloud"
+### Enterprise control of "Cloud"
 
 #### Public Cloud vs Private Cloud
 
@@ -402,7 +308,7 @@ Migration scenario's
 IAM Knowledge Sharing
 =====================
 
-IDpro
+IDPro
 -----
 
 Gartner
