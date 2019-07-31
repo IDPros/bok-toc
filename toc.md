@@ -119,12 +119,15 @@ IAM Processes
 
 ### Provisioning (On-boarding and Off-boarding)
 
-### Handling Business Partners' People
+### Role Management
 
 ### Re-certification
 
 Analytics and Intelligence
 --------------------------
+
+Handling Business Partners' People
+----------------------------------
 
 Consumer/Citizen IAM
 ====================
