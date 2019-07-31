@@ -129,12 +129,6 @@ Analytics and Intelligence
 Consumer/Citizen IAM
 ====================
 
-Public Sector vs. Private Sector
---------------------------------
-
-Social Media
-------------
-
 Consumer Journey (identification to loyal customer)
 ---------------------------------------------------
 
@@ -142,12 +136,17 @@ Consumer Journey (identification to loyal customer)
 
 ### Authentication Assurance (meeting LoA requirements)
 
-### Digital Legacy - handling deceased persons' digital ID
-
-Self-Sovereign Identity
+Industry Considerations
 -----------------------
 
-### Blockchain ID
+### Public Sector vs. Private Sector
+
+### Financial Services
+
+### Healthcare
+
+Social Sign-up and Sign-on
+--------------------------
 
 Non-Human Entity
 ================
@@ -322,3 +321,14 @@ IIW
 
 Bibliography
 ------------
+
+Advanced Topics -- Parking Lot
+==============================
+
+Digital Legacy - handling deceased persons' digital ID (Advanced Topic)
+-----------------------------------------------------------------------
+
+Self-Sovereign Identity
+-----------------------
+
+### Blockchain ID
