@@ -93,19 +93,63 @@ Authorization
 
 #### System Accounts
 
-Regulations and Laws
-====================
+Laws, Regulations, and Standards
+================================
 
-Privacy (generic)
------------------
+Framework to Understand Legal Environment
+-----------------------------------------
 
-Survey of Jurisdictions
------------------------
+Highlights of Selected Laws
+---------------------------
 
-### SOX, HIPAA, GDPR, CBPR etc.
+### Europe
 
-Consent Management
-------------------
+#### GDPR
+
+### United States
+
+#### Sarbanes-Oxley Section 404
+
+#### Health Insurance Portability and Accountability Act (HIPAA)
+
+#### Health Information Technology for Economic and Clinical Health Act (HITECH)
+
+#### Family Educational Rights and Privacy Act of 1974 (FERPA)
+
+#### Children\'s Online Privacy Protection Act (COPPA)
+
+#### Fair and Accurate Credit Transaction Act (FACTA)
+
+### Canada
+
+#### Personal Information Protection and Electronic Documents Act (PIPED Act, or PIPEDA)
+
+Standards
+---------
+
+### Terminology
+
+#### ISO/IEC 24760-1:2019 IT Security and Privacy \-- A Framework For Identity Management \-- Part 1: Terminology And Concepts
+
+### Architecture
+
+#### ISO/IEC 24760-2:2015 Information technology \-- Security techniques \-- A framework for identity management \-- Part 2: Reference architecture and requirements
+
+#### ISO/IEC 24760-3:2016 Information technology \-- Security techniques \-- A framework for identity management \-- Part 3: Practice
+
+### Techniques
+
+#### LDAP -- RFC 4511
+
+#### LDIF -- RFC 2849
+
+#### SAML 2.0
+
+#### OAUTH 2.0 -- RFC'S 6749, 8252
+
+#### OpenID Connect 1.0
+
+#### User-Managed Access (UMA) Profile of OAuth 2.0
 
 Workforce IAM / Internal IAM
 ============================
