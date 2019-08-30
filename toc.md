@@ -304,11 +304,25 @@ Security events and operations
 Project Management
 ==================
 
-New implementations
--------------------
+Importance of Project Management
+--------------------------------
 
-Migration scenario's
---------------------
+Characteristics of a Project Manager
+------------------------------------
+
+PMI Framework
+-------------
+
+### Concept
+
+### Planning Stage
+
+### Deployment Stage
+
+### Methodologies
+
+PMO Issues
+----------
 
 IAM Knowledge Sharing
 =====================
