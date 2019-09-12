@@ -536,143 +536,53 @@ Security events and operations
 Project Management
 ==================
 
-Introduction
-------------
+Many Identity and Access Management (IAM) projects proceed without a
+project manager. In these cases the IT group in charge of identity
+management are left to deploy the required solution in the absence of
+any overarching management. While this is sometimes seen as the most
+expedient way to get a system installed or updated, it is short-sighted
+and likely to cost the organisation more money in the longer term. An
+IAM solution touches so many systems within an organisation and is
+dependent on the current and planned condition of so many applications
+that to deploy a solution without properly considering the impact,
+managing the required resources and keeping management advised of
+progress, will result in a substandard deployment.
 
-Importance of Project Management
---------------------------------
+Here we look at two ways to manage a project -- "Classic", sometimes
+called Waterfall, and "Agile, a way to manage projects that accommodates
+changes that inevitably arise during the course of a project.
 
-Abstract: Many Identity and Access Management (IAM) projects proceed
-without a project manager. In these cases the IT group in charge of
-identity management are left to deploy the required solution in the
-absence of any overarching management. While this is sometimes seen as
-the most expedient way to get a system installed or updated, it is
-short-sighted and likely to cost the organisation more money in the
-longer term. An IAM solution touches so many systems within an
-organisation and is dependent on the current and planned condition of so
-many applications that to deploy a solution without properly considering
-the impact, managing the required resources and keeping management
-advised of progress, will result in a substandard deployment.
+Reference is made to the Project Management Institute (PMI) Framework.
+This document in no way seeks to replicate the PMI's methodology or
+replace the project management training that the PMI provides. The
+reader is referred to the PMI Body of Knowledge for further information.
 
-Project management does have a cost, it is typically between 5-10% of a
-project's total expenditure but it represents the best return in
-comparison to any other investment an organisation is likely to be
-afforded.
+Project Management Institute Framework
+--------------------------------------
 
-Characteristics of a Project Manager
-------------------------------------
+New Implementation Projects
+---------------------------
 
-Abstract: Too often, in the IT sector, a project manager is  low-level
-employee who is expected to bring a project in on time and within budget
-with minimal assistance from upper management and minimal visibility
-within the organization. In reality a project manager needs sufficient
-resources to allow him or her to adequately monitor and manage their
-project, and regular communications with a steering committee consisting
-of representatives from upper management. There are two prime
-characteristics that are essential to a project manager:
+Migration Projects
+------------------
 
-  Predictability   Management doesn't like surprises. A project manager should determine and report on a project's duration and related costs to a defined degree of confidence.
-  ---------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Flexibility      Gone are the days when a project manager slavishly followed an approved Gantt chart to the detriment of anyone who wants a change. IT projects will typically undergo several baseline changes during execution to accommodate: scope changes, dependencies on other projects and changes in resource availability.
-
-Project managers require competence in the five components of project
-management:
-
-\-          Planning
-
-\-          Organising
-
-\-          Resourcing
-
-\-          Directing
-
-\-          Controlling
-
-PMI Framework
--------------
-
-Abstract: By definition a project must have a start and a finish.
-Business-as-usual is never project work and does not require the skills
-of a project manager. Before the start of a project there will be some
-preparatory work to define the concept. Between the commencement and
-completion there are discrete stages that define the project work. After
-the project completion the deliverable will enter an operational status.
-
-### Concept
-
-Abstract: Projects come out of a need. In the IAM world it might be a
-need to reduce costs and improve security by better using identity
-information for on-boarding and off-boarding staff, it might be
-improving governance over identity information or it might be upgrading
-existing IAM infrastructure. Typically it will fall to a project sponsor
-to communicate the requirement and commence evaluating the cost and
-duration of the required activity. The sponsor will typically fund this
-stage and then engage a project manager to complete the planning stage.
-
-### Planning Stage
-
-Abstract: Once approval to proceed has been received the project manager
-will engage with the stakeholders to define the project scope. It is
-usual for the size and complexity of the project to increase at this
-point. For an IAM project that might have initially been to deploy an
-identity manager for the assignment of email accounts and AD account
-will expand to include provisioning into corporate applications and
-possibly include additional functionality such as periodic attestation
-reporting and re-certification. It is important that the appropriate
-project stakeholders have been engaged by this point, to ensure
-appropriate definition of the project scope.
-
-### Deployment Stage
-
-Abstract: The project deployment will vary depending upon the project
-management mechanism to be used.
-
-### Methodologies
-
-PMO Issues
-----------
-
-Abstract: In organizations with a Project Management Office an IAM
-project must follow the corporate procedures. Typically a PMO will have
-defined "gates" through which all projects must pass. For instance there
-will typically be a project approval gate in which the appropriate
-managers will review the project plan and indicate their approval. There
-will usually be a budget review to approve the assignment of resources.
-There might be an architecture review to approve the solution
-architecture. A review of the governance outcomes should also occur. The
-PMO should orchestrate this activity.
-
-One or the benefits of a PMO is the visibility it gives to projects
-within an organization. This is beneficial to the IAM team in that it
-gives them insight into which projects are proceeding and provides the
-opportunity to ensure any projects with an identity component are
-properly identified and accommodated in the appropriate program of work.
-For instance, if an authentication gateway is being installed, any
-application undergoing development should be modified to use the gateway
-rather than maintaining LDAP lookups. Without a PMO it is sometimes
-difficult for the IAM team to impact projects. A PMO provides the
-opportunity to educate project managers on identity issues and to insert
-IAM requirements into IT projects within an organisation.
-
- 
+Project Management Office Issues  
+----------------------------------
 
 IAM Knowledge Sharing
 =====================
 
-IDPro
------
+Independent Organizations
+-------------------------
 
-Gartner
--------
+Standards Bodies
+----------------
 
-KuppingerCole
--------------
+Analyst Organizations
+---------------------
 
-IIW
----
-
-Bibliography
-------------
+Conferences
+-----------
 
 Advanced Topics -- Parking Lot
 ==============================
