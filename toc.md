@@ -190,11 +190,10 @@ architecture for identity systems.
 Abstract: This article surveys the known standards concerning risk and
 assurance for identity systems.
 
-#### *Standard on Identity and Credential Assurance*
+#### *Directive on Identity Management - Appendix A: Standard on Identity and Credential Assurance*
 
-\[Canada\]    Government of Canada    February 2013   
-https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26776.    Archived - Need
-successors
+\[Canada\] Government of Canada July 2019
+<https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32612>
 
 #### *Digital Identity Guidelines*
 
