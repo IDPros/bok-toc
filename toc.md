@@ -291,9 +291,8 @@ same.
 
 #### *Standard on Identity and Credential Assurance*
 
-\[Canada\]    Government of Canada    February 2013   
-https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26776.    Archived - Need
-successors
+\[Canada\]    Government of Canada    July 2019   
+https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32612
 
 #### *Digital Identity Guidelines: Enrollment and Identity Proofing Requirements*
 
@@ -304,6 +303,16 @@ https://doi.org/10.6028/NIST.SP.800-63a   
 
 \[SP 800-63B\]    NIST Special Publication 800-63C    December 2017   
 https://doi.org/10.6028/NIST.SP.800-63b   
+
+#### *System for Cross-domain Identity Management: Protocol*
+
+\[IETF RFC 7644\]   RFC 7644   September
+2015   https://tools.ietf.org/html/rfc7644
+
+#### *System for Cross-domain Identity Management: Core Schema*
+
+\[IETF RFC 7643\]   RFC 7643   September
+2015   https://tools.ietf.org/html/rfc7643
 
 ### Operations
 
