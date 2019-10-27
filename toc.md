@@ -131,11 +131,17 @@ Australia in the short term.
 
 ### Europe
 
-#### GDPR
+#### Introduction to GDPR
 
 Abstract: This article provides a basic understanding of how the
 *General Data Protection Regulation (GDPR)* applies when processing 'any
 information relating to an identified or identifiable natural person'.
+
+#### IAM Implications of GDPR
+
+Abstract: This article provides information to the IAM practitioner
+about how to achieve compliance with the European data protection and
+privacy rules for European and multi-national firms
 
 ### United States
 
