@@ -139,9 +139,14 @@ information relating to an identified or identifiable natural person'.
 
 #### IAM Implications of GDPR
 
-Abstract: This article provides information to the IAM practitioner
-about how to achieve compliance with the European data protection and
-privacy rules for European and multi-national firms
+Abstract: This article examines the implications of the General Data
+Protection Regulation (\"GDPR\") on IAM process and system design and
+introduces organisational and technical good practices which will help
+in ensuring demonstrable compliance with the regulation in ways which
+improve user experience and customer trust. These approaches will by
+extension also help in complying with data protection legislation in
+other geographies including (for example) the California Consumer
+Privacy Act (\"CCPA\").
 
 ### United States
 
