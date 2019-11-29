@@ -120,6 +120,36 @@ efforts to coordinate rules underway in the UN Commission on
 International Trade Law (UNCITRAL) regarding identity management
 legislation.
 
+Approach to Compliance for the Identity Practitioner
+----------------------------------------------------
+
+Abstract:
+
+The overview, above, provides a broad perspective on what the
+practitioner might encounter. This article provides a companion piece
+that is less theoretical and more practical and concise. This does not
+provide legal advice; for that one must consult a legal professional.
+Instead we chart paths that the reader might take in sample situations
+to prepare for legal review. The goal is to ensure the identity system,
+as built and operated, will be in robust compliance with law.
+
+This takes the form of three illustrative use-cases where the identity
+system supports various combinations of jurisdictions, participants and
+federation:
+
+a)  Single jurisdiction, supporting customer access, including out-bound
+    federation for certain aspects of the customer journey;
+
+b)  A system that relies entirely on external "identity providers", with
+    operations in several jurisdictions;
+
+c)  A multi-jurisdiction employee/contractor-focused system, which
+    wishes to use biometric techniques for authentication.
+
+The general approach is to use the jurisdictions, participants,
+federations and technologies under consideration in order to locate
+aspects of the law that must be considered.
+
 Highlights of Selected Laws
 ---------------------------
 

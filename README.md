@@ -8,7 +8,7 @@ The maintainer will run the script, which will generate the .pdf version with ne
 ## Maintenance
 To run the script from the main directory run  `./scripts/totex.sh`
 
-This will create toc.tex, toc.md and maintop.pdf.
+This will create toc.tex, toc.md and maintoc.pdf.
 
 ## History
 Text was downloaded from ether pad into IDproTOC.txt.
