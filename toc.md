@@ -1,13 +1,35 @@
 Introduction
 ============
 
+How to Approach Identity
+------------------------
+
+Constituencies
+--------------
+
+### Business to Employee
+
+### Business to Business
+
+### Business to Customer
+
+Technologies Involved
+---------------------
+
+### Admin-time Technologies
+
+### Privileged Account Management
+
+### Proofing
+
 Ethics
 ------
 
-Information security
+Information Security
 --------------------
 
-### Trust (say more - what is this?)
+Trust in the IAM Context
+------------------------
 
 Privacy
 -------
