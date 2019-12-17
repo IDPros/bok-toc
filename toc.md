@@ -41,13 +41,6 @@ Identification and authentication
 
 ### Levels of Assurance
 
-The Business Case for IAM
--------------------------
-
-### Workforce IAM
-
-### Consumer/Citizen IAM
-
 Digital Identity
 ================
 
@@ -153,20 +146,19 @@ that is less theoretical and more practical and concise. This does not
 provide legal advice; for that one must consult a legal professional.
 Instead we chart paths that the reader might take in sample situations
 to prepare for legal review. The goal is to ensure the identity system,
-as built and operated, will be in robust compliance with law.
-
-This takes the form of three illustrative use-cases where the identity
-system supports various combinations of jurisdictions, participants and
+as built and operated, will be in robust compliance with law. This takes
+the form of three illustrative use-cases where the identity system
+supports various combinations of jurisdictions, participants and
 federation:
 
-a)  Single jurisdiction, supporting customer access, including out-bound
-    federation for certain aspects of the customer journey;
+a\) Single jurisdiction, supporting customer access, including out-bound
+federation for certain aspects of the customer journey;
 
-b)  A system that relies entirely on external "identity providers", with
-    operations in several jurisdictions;
+b\) A system that relies entirely on external \"identity providers\",
+with operations in several jurisdictions;
 
-c)  A multi-jurisdiction employee/contractor-focused system, which
-    wishes to use biometric techniques for authentication.
+c\) A multi-jurisdiction employee/contractor-focused system, which wishes
+to use biometric techniques for authentication.
 
 The general approach is to use the jurisdictions, participants,
 federations and technologies under consideration in order to locate
@@ -191,14 +183,9 @@ information relating to an identified or identifiable natural person'.
 
 #### IAM Implications of GDPR
 
-Abstract: This article examines the implications of the General Data
-Protection Regulation (\"GDPR\") on IAM process and system design and
-introduces organisational and technical good practices which will help
-in ensuring demonstrable compliance with the regulation in ways which
-improve user experience and customer trust. These approaches will by
-extension also help in complying with data protection legislation in
-other geographies including (for example) the California Consumer
-Privacy Act (\"CCPA\").
+Abstract: This article provides information to the IAM practitioner
+about how to achieve compliance with the European data protection and
+privacy rules for European and multi-national firms
 
 ### United States
 
