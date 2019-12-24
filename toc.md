@@ -1,29 +1,29 @@
 Introduction
 ============
 
-How to Approach Identity
-------------------------
+How to Approach Identity *-- article in progress*
+-------------------------------------------------
 
-Constituencies
---------------
+Constituencies *-- article in progress*
+---------------------------------------
 
-### Business to Employee
+### Business to Employee *-- article in progress*
 
-### Business to Business
+### Business to Business *-- article in progress*
 
-### Business to Customer
+### Business to Customer *-- article in progress*
 
-Technologies Involved
----------------------
+Technologies Involved *-- article in progress*
+----------------------------------------------
 
-### Admin-time Technologies
+### Admin-time Technologies *-- article in progress*
 
-### Privileged Account Management
+### Privileged Account Management *-- article in progress*
 
-### Proofing
+### Proofing *-- article in progress*
 
-Ethics
-------
+Ethics *-- article in progress*
+-------------------------------
 
 Information Security
 --------------------
@@ -49,19 +49,17 @@ Definition
 
 ### Reputation
 
-### Laws of Identity (this sounds like jurisdictions and real laws - is that the intent?)
+Identifiers *-- article in progress*
+------------------------------------
 
-Identifiers
------------
-
-Digital Identity Lifecycle (?)
-------------------------------
+Digital Identity Lifecycle
+--------------------------
 
 Mapping to human or device
 --------------------------
 
-Proofing, Binding or Registration (?)
--------------------------------------
+Proofing, Binding or Registration 
+----------------------------------
 
 ### Verification/Validation
 
@@ -123,8 +121,8 @@ entities often require compliance with standards produced by certain
 standards bodies. We also include *de facto* standards and recommended
 practices here.
 
-Framework to Understand Legal Environment
------------------------------------------
+Framework to Understand Legal Environment *-- article in progress*
+------------------------------------------------------------------
 
 Abstract: Identity systems and its participants are governed by a myriad
 and complex set of laws, regulations, and contractual requirements, and
@@ -175,13 +173,13 @@ Australia in the short term.
 
 ### Europe
 
-#### Introduction to GDPR
+#### Introduction to GDPR *-- article in progress*
 
 Abstract: This article provides a basic understanding of how the
 *General Data Protection Regulation (GDPR)* applies when processing 'any
 information relating to an identified or identifiable natural person'.
 
-#### IAM Implications of GDPR
+#### IAM Implications of GDPR *-- article in progress*
 
 Abstract: This article provides information to the IAM practitioner
 about how to achieve compliance with the European data protection and
@@ -397,6 +395,11 @@ https://webstore.ansi.org/Standards/ISO/ISOIEC247602019    \$138
 
 #### ISO/IEC 24760-1:2019 IT Security and Privacy \-- A Framework For Identity Management \-- Part 1: Terminology And Concepts
 
+Emerging Societal Norms
+-----------------------
+
+### Managing Consent *-- article in progress*
+
 Workforce IAM / Internal IAM
 ============================
 
@@ -479,8 +482,25 @@ RPA / robotics
 Security requirements
 ---------------------
 
-IAM Architecture and Solutions
-==============================
+IAM Architecture and Solutions 
+===============================
+
+IAM Architecture Overview *-- article in progress*
+--------------------------------------------------
+
+Architecture Patterns *-- article in progress*
+----------------------------------------------
+
+Technical Architecture *-- article in progress*
+-----------------------------------------------
+
+Identity Governance *-- article in progress*
+--------------------------------------------
+
+### Elements of IGA Systems *-- article in progress*
+
+Key Definitions and Terms *-- article in progress*
+--------------------------------------------------
 
 Business System
 ---------------
@@ -489,92 +509,10 @@ Business System
 
 #### Recertification of accounts
 
-Information/Data Architecture
------------------------------
-
-Application Portfolio
----------------------
-
-### APIs
-
-#### HTTP
-
-#### S/LDAP
-
-#### RACF
-
-#### XACML
-
-Technical
----------
-
-### Repositories
-
-#### Relational Database
-
-##### Query optimization
-
-##### Replication limitations
-
-#### Directories
-
-##### Historical note - X.500
-
-##### SLAPD and its descendants
-
-#### NoSQL databases
-
-##### Graph Databases
-
-#### Identity Provider (IdP) Trends
-
-##### Distributed Ledger (Blockchain)
-
-### Identity Provider Services
-
-### Protocols
-
-#### Kerberos
-
-#### Lightweight Directory Access Protocol (LDAP)
-
-#### SCIM
-
-#### SAML
-
-##### SP Initiated vs IDP Initiated
-
-##### Bindings
-
-#### OIDC
-
-##### Authentications Flows
-
-#### OAuth
-
-#### WS-Fed
-
-#### FIDO U2F and UAF
-
-### Enterprise control of "Cloud"
-
-#### Public Cloud vs Private Cloud
-
-#### Local Connectors and Gateways
-
-#### IPSec VPN
-
 Recommended Practices
 ---------------------
 
 ### Design for security
-
-Governance and Administration
------------------------------
-
-### Audit
-
-### Monitoring
 
 Operational Considerations
 ==========================
@@ -615,8 +553,11 @@ This document in no way seeks to replicate the PMI's methodology or
 replace the project management training that the PMI provides. The
 reader is referred to the PMI Body of Knowledge for further information.
 
-Project Management Institute Framework
---------------------------------------
+Project Management Institute Framework *-- article in progress*
+---------------------------------------------------------------
+
+Project Management Office Issues *-- article in progress*
+---------------------------------------------------------
 
 New Implementation Projects
 ---------------------------
@@ -624,14 +565,11 @@ New Implementation Projects
 Migration Projects
 ------------------
 
-Project Management Office Issues  
-----------------------------------
-
 IAM Knowledge Sharing
 =====================
 
-Independent Organizations
--------------------------
+Independent Organizations *-- article in progress*
+--------------------------------------------------
 
 Standards Bodies
 ----------------
