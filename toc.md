@@ -1,26 +1,47 @@
 Introduction
 ============
 
-How to Approach Identity *-- article in progress*
--------------------------------------------------
+Introduction to Identity -- Part 1: Admin-time *-- article in progress*
+-----------------------------------------------------------------------
 
-Constituencies *-- article in progress*
----------------------------------------
+Abstract: This article introduces the concepts of digital identity and
+identity and access management (IAM). It also discusses the constituents
+that identity professionals serve, compares and contrasts
+business-to-employee (B2E) and business-to-consumer (B2C) identity use
+cases, and considers IAM technologies from the perspective of
+administrative, or admin-time, technologies.
 
-### Business to Employee *-- article in progress*
+Sections in this article include:
 
-### Business to Business *-- article in progress*
+-   Introduction: How to Approach Identity and IAM.
 
-### Business to Customer *-- article in progress*
+-   Constituencies - who is it that we serve?
 
-Technologies Involved *-- article in progress*
-----------------------------------------------
+-   Business-to-Employee (B2E): Making Employees Productive.
 
-### Admin-time Technologies *-- article in progress*
+-   Business-to-Business (B2B): Connecting to Partners.
 
-### Privileged Account Management *-- article in progress*
+-   Business-to-Consumer (B2C): Digitally Engage.
 
-### Proofing *-- article in progress*
+-   Technologies Involved - Admin-time vs. Run-time.
+
+-   Admin-time Technologies.
+
+-   Sources of "Truth".
+
+-   Identity Governance and Administration.
+
+-   Identity Analytics.
+
+-   Privileged Account Management.
+
+-   Identity Proofing.
+
+Introduction to Identity -- Part 2: Run-time *-- article in progress*
+---------------------------------------------------------------------
+
+Introduction to Identity -- Part 3: Use Cases *-- article in progress*
+----------------------------------------------------------------------
 
 Ethics *-- article in progress*
 -------------------------------
@@ -118,8 +139,24 @@ reduce risk.
 Access Control
 ==============
 
-Authentication
---------------
+Introduction to Access Control *-- article in progress*
+-------------------------------------------------------
+
+Abstract: As the name implies Identity and Access Management (IAM) is
+split into two functions: managing identity information and performing
+access control. Arguably, if there was no access control requirement
+there would be no need for identity management; it is therefore the
+focus for IAM professionals.
+
+At its core access control is ensuring users are authenticated to access
+protected resources. This is accomplished by managing user entitlements
+and satisfying the requirements of relying applications so that users
+can only access the systems and information they are entitled to access.
+
+This article looks at the history of access management, the expected
+current functionality and the trends to be expected.
+
+### Authentication {#authentication-1}
 
 ### Dynamic Authentication (risk-based)
 
@@ -280,7 +317,7 @@ are possible. In this case cross references may be used.
 Abstract: This article surveys the known standards concerning
 architecture for identity systems.
 
-#### ISO/IEC 24760-2:2015 Information technology \-- Security techniques \-- A framework for identity management \-- Part 2: Reference architecture and requirements
+#### ISO/IEC 24760-2:2015 Information technology \-- Security techniques \-- A framework for identity management \-- Part 2: Reference architecture and requirements -- *article in progress*
 
 ### Assurance
 
@@ -302,7 +339,7 @@ https://doi.org/10.6028/NIST.SP.800-63-3   
 \[SP-800-37\]    NIST Special Publication 800-37r1    June 2014   
 https://doi.org/10.6028/NIST.SP.800-37r1   
 
-### Authentication
+### Authentication {#authentication-2}
 
 Abstract: This article surveys the known standards concerning methods of
 authenticating principals.
@@ -416,7 +453,7 @@ https://doi.org/10.6028/NIST.SP.800-63b   
 Abstract: This article surveys the known standards concerning the
 operation of identity systems.
 
-#### *Information technology \-- Security techniques \-- A framework for identity management \-- Part 3: Practice*
+#### *Information technology \-- Security techniques \-- A framework for identity management \-- Part 3: Practice -- article in progress*
 
 \[ISO 24760-3\]    ISO/IEC 24760-3:2016     2016   
 https://webstore.ansi.org/Standards/ISO/ISOIEC247602016    \$162
@@ -437,7 +474,7 @@ https://doi.org/10.6028/NIST.SP.800-63-3   
 2006.   
 https://tsapps.nist.gov/publication/get\_pdf.cfm?pub\_id=906227   
 
-#### *Security and Privacy \-- A Framework For Identity Management \-- Part 1: Terminology And Concepts*
+#### *Security and Privacy \-- A Framework For Identity Management \-- Part 1: Terminology And Concepts -- article in progress*
 
 \[ISO 24760-1\]    ISO/IEC 24760-1:2019 IT     2019   
 https://webstore.ansi.org/Standards/ISO/ISOIEC247602019    \$138
@@ -841,8 +878,8 @@ Migration Projects
 IAM Knowledge Sharing
 =====================
 
-Independent Organizations *-- article in progress*
---------------------------------------------------
+Independent Organizations *-- articles in progress*
+---------------------------------------------------
 
 Standards Bodies
 ----------------
