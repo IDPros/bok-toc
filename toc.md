@@ -62,6 +62,9 @@ Identification and authentication
 
 ### Levels of Assurance
 
+Bias in Identity Systems
+------------------------
+
 Digital Identity
 ================
 
@@ -765,6 +768,9 @@ Non-Human Entity
 
 Operational Technology (OT)
 ---------------------------
+
+Service Accounts
+----------------
 
 IoT Devices
 -----------
