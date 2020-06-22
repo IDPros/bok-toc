@@ -1,8 +1,8 @@
 Introduction
 ============
 
-Introduction to Identity -- Part 1: Admin-time *-- article in progress*
------------------------------------------------------------------------
+Introduction to Identity -- Part 1: Admin-time *-- published*
+-------------------------------------------------------------
 
 Abstract: This article introduces the concepts of digital identity and
 identity and access management (IAM). It also discusses the constituents
@@ -37,14 +37,14 @@ Sections in this article include:
 
 -   Identity Proofing.
 
-Introduction to Identity -- Part 2: Run-time *-- article in progress*
----------------------------------------------------------------------
+Introduction to Identity -- Part 2: Run-time *-- published*
+-----------------------------------------------------------
 
 Introduction to Identity -- Part 3: Use Cases *-- article in progress*
 ----------------------------------------------------------------------
 
-Ethics *-- article in progress*
--------------------------------
+Ethics 
+-------
 
 Information Security
 --------------------
@@ -83,8 +83,8 @@ level of certainty about and provenance of attribute values.
 
 ### Reputation
 
-Digital Identifiers *-- article in progress*
---------------------------------------------
+Digital Identifiers *-- published*
+----------------------------------
 
 Abstract: What is in a name?  It turns out that there are concerns that
 are explored here. These include the domain in which it can be
@@ -96,8 +96,8 @@ discusses the need to allow for the safe recovery of the same.
 Identifiers for devices are covered more fully in the non-human entity
 section.
 
-Digital Identity Lifecycle
---------------------------
+Digital Identity Lifecycle -- *article in progress*
+---------------------------------------------------
 
 Abstract: In addition to the steps typically associated with other
 digital records, such as create, update and delete, this article
@@ -139,11 +139,13 @@ credentials can be stolen, this article touches on the approach that
 some implementations have taken which look to device identities to
 reduce risk.
 
+### Introduction to Verifiable Credentials
+
 Access Control
 ==============
 
-Introduction to Access Control *-- article in progress*
--------------------------------------------------------
+Introduction to Access Control *-- published*
+---------------------------------------------
 
 Abstract: As the name implies Identity and Access Management (IAM) is
 split into two functions: managing identity information and performing
@@ -198,6 +200,9 @@ Authorization
 
 #### System Accounts
 
+Access Governance -- *article in progress*
+------------------------------------------
+
 Laws, Regulations, and Standards
 ================================
 
@@ -210,8 +215,8 @@ entities often require compliance with standards produced by certain
 standards bodies. We also include *de facto* standards and recommended
 practices here.
 
-Framework to Understand Legal Environment *-- article in progress*
-------------------------------------------------------------------
+Framework to Understand Legal Environment *-- published*
+--------------------------------------------------------
 
 Abstract: Identity systems and its participants are governed by a myriad
 and complex set of laws, regulations, and contractual requirements, and
@@ -262,13 +267,13 @@ Australia in the short term.
 
 ### Europe
 
-#### Introduction to GDPR *-- article in progress*
+#### Introduction to GDPR *-- published*
 
 Abstract: This article provides a basic understanding of how the
 *General Data Protection Regulation (GDPR)* applies when processing 'any
 information relating to an identified or identifiable natural person'.
 
-#### IAM Implications of GDPR *-- article in progress*
+#### IAM Implications of GDPR *-- published*
 
 Abstract: This article provides information to the IAM practitioner
 about how to achieve compliance with the European data protection and
@@ -320,7 +325,7 @@ are possible. In this case cross references may be used.
 Abstract: This article surveys the known standards concerning
 architecture for identity systems.
 
-#### ISO/IEC 24760-2:2015 Information technology \-- Security techniques \-- A framework for identity management \-- Part 2: Reference architecture and requirements -- *article in progress*
+#### ISO/IEC 24760-2:2015 Information technology \-- Security techniques \-- A framework for identity management \-- Part 2: Reference architecture and requirements -- *published*
 
 ### Assurance
 
@@ -456,7 +461,7 @@ https://doi.org/10.6028/NIST.SP.800-63b   
 Abstract: This article surveys the known standards concerning the
 operation of identity systems.
 
-#### *Information technology \-- Security techniques \-- A framework for identity management \-- Part 3: Practice -- article in progress*
+#### *Information technology \-- Security techniques \-- A framework for identity management \-- Part 3: Practice -- published*
 
 \[ISO 24760-3\]    ISO/IEC 24760-3:2016     2016   
 https://webstore.ansi.org/Standards/ISO/ISOIEC247602016    \$162
@@ -477,7 +482,7 @@ https://doi.org/10.6028/NIST.SP.800-63-3   
 2006.   
 https://tsapps.nist.gov/publication/get\_pdf.cfm?pub\_id=906227   
 
-#### *Security and Privacy \-- A Framework For Identity Management \-- Part 1: Terminology And Concepts -- article in progress*
+#### *Security and Privacy \-- A Framework For Identity Management \-- Part 1: Terminology And Concepts -- published*
 
 \[ISO 24760-1\]    ISO/IEC 24760-1:2019 IT     2019   
 https://webstore.ansi.org/Standards/ISO/ISOIEC247602019    \$138
@@ -487,7 +492,7 @@ https://webstore.ansi.org/Standards/ISO/ISOIEC247602019    \$138
 Emerging Societal Norms
 -----------------------
 
-### Managing Consent *-- article in progress*
+### Managing Consent 
 
 Workforce IAM / Internal IAM
 ============================
@@ -763,8 +768,8 @@ question to capturing and confirming biometric data to using physical
 authentication keys, codes or One-Time Passwords (OTPs) over SMS/email
 or Time-based One-time Password (TOTP) (Google Authenticator). 
 
-Non-Human Entity
-================
+Non-Human Entity -- *article in progress*
+=========================================
 
 Operational Technology (OT)
 ---------------------------
@@ -804,22 +809,19 @@ Security requirements
 IAM Architecture and Solutions 
 ===============================
 
-IAM Architecture Overview *-- article in progress*
---------------------------------------------------
+IAM Architecture Overview *-- published*
+----------------------------------------
 
-Architecture Patterns *-- article in progress*
-----------------------------------------------
+### Architecture Patterns 
 
-Technical Architecture *-- article in progress*
------------------------------------------------
+### Technical Architecture 
 
-Identity Governance *-- article in progress*
---------------------------------------------
+### Identity Governance 
 
-### Elements of IGA Systems *-- article in progress*
+### Elements of IGA Systems 
 
-Key Definitions and Terms *-- article in progress*
---------------------------------------------------
+Key Definitions and Terms 
+--------------------------
 
 Business System
 ---------------
@@ -872,8 +874,8 @@ This document in no way seeks to replicate the PMI's methodology or
 replace the project management training that the PMI provides. The
 reader is referred to the PMI Body of Knowledge for further information.
 
-Project Management Institute Framework and Project Management Office Issues *-- article in progress*
-----------------------------------------------------------------------------------------------------
+Project Management Institute Framework and Project Management Office Issues *-- published*
+------------------------------------------------------------------------------------------
 
 New Implementation Projects
 ---------------------------
@@ -884,8 +886,8 @@ Migration Projects
 IAM Knowledge Sharing
 =====================
 
-Independent Organizations *-- articles in progress*
----------------------------------------------------
+Independent Organizations *-- published*
+----------------------------------------
 
 Standards Bodies
 ----------------
@@ -901,6 +903,9 @@ Advanced Topics -- Parking Lot
 
 Digital Legacy - handling deceased persons' digital ID (Advanced Topic)
 -----------------------------------------------------------------------
+
+Verifiable Credentials
+----------------------
 
 Self-Sovereign Identity
 -----------------------
