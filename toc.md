@@ -497,6 +497,9 @@ Emerging Societal Norms
 Workforce IAM / Internal IAM
 ============================
 
+Key Characteristics of Workforce IAM
+------------------------------------
+
 IAM Processes
 -------------
 
@@ -521,6 +524,9 @@ Handling Business Partners' People
 
 Consumer/Citizen IAM
 ====================
+
+Key Characteristics of CIAM
+---------------------------
 
 CIAM vs Workforce IAM
 ---------------------
@@ -767,6 +773,61 @@ variety of factors to choose from, ranging from asking a security
 question to capturing and confirming biometric data to using physical
 authentication keys, codes or One-Time Passwords (OTPs) over SMS/email
 or Time-based One-time Password (TOTP) (Google Authenticator). 
+
+Academic IAM
+============
+
+Key Characteristics of Academic IAM
+-----------------------------------
+
+### K-12 IAM
+
+This article will describe the context and critical drivers for IAM in
+the world of K-12.
+
+### Higher Education IAM
+
+This article will describe the context and critical drivers for IAM in
+higher education.
+
+#### Institutional Dynamics
+
+Discuss some of the major stakeholders in higher education and how they
+interact with an IAM system. Stakeholders include students
+(undergraduate and graduate), faculty (research, teaching, emeritus,
+adjuct, etc), staff (including retirees), and general administration.
+
+#### Campus Libraries and IAM
+
+Campus libraries often have unique requirements of an IAM system. This
+article describes those considerations, touching on specific
+expectations around user privacy, subscription requirements, and
+business models.
+
+#### Research Collaborations and IAM
+
+Researchers often collaborate with other researchers from different
+campuses. Large-scale collaborations may have dozens or even hundreds of
+different institutions involved. This drives a need for federated
+identity beyond what most other campus stakeholder groups required. This
+article will explore the IAM requirements for this stakeholder group.
+
+#### Academic Hospital Considerations
+
+Many schools have academic medical centers with significantly different
+risk tolerances, requirements, modes of operation that cause them to
+have to act as a more-or-less separate entity with regard to IAM. This
+can cause issues for faculty, staff, students with dual roles.
+
+#### Considerations for IAM for Small, Medium, and Large Campuses
+
+The IAM requirements for a small liberal college are likely to be very
+different from that of a large research university. This article will
+explore the IAM requirements that are driven by the size and focus of
+different types of higher ed institutions.
+
+Risk Assessment for IAM in Academia
+-----------------------------------
 
 Non-Human Entity -- *article in progress*
 =========================================
