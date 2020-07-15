@@ -44,7 +44,7 @@ Introduction to Identity -- Part 3: Use Cases *-- article in progress*
 ----------------------------------------------------------------------
 
 Ethics 
--------
+------
 
 Information Security
 --------------------
@@ -109,7 +109,7 @@ provides a list of activities that may occur between the creation of the
 digital identity and its disposal.
 
 Proofing, Binding or Registration 
-----------------------------------
+---------------------------------
 
 Abstract: In many contexts, it is important to relate a human to a
 digital account.  Typically it matters in commercial and institutional
@@ -249,8 +249,8 @@ federation for certain aspects of the customer journey;
 b\) A system that relies entirely on external \"identity providers\",
 with operations in several jurisdictions;
 
-c\) A multi-jurisdiction employee/contractor-focused system, which wishes
-to use biometric techniques for authentication.
+c\) A multi-jurisdiction employee/contractor-focused system, which
+wishes to use biometric techniques for authentication.
 
 The general approach is to use the jurisdictions, participants,
 federations and technologies under consideration in order to locate
@@ -360,7 +360,7 @@ https://doi.org/10.6028/NIST.SP.800-63b   
 #### *Introduction to Public Key Technology and the Federal PKI Infrastructure*
 
 \[SP 800-32\]    NIST Special Publication 800-32    February 2001.   
-https://tsapps.nist.gov/publication/get\_pdf.cfm?pub\_id=151247   
+https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=151247   
 
 #### *Lightweight Directory Access Protocol (LDAP): Technical Specification Road Map*
 
@@ -371,7 +371,7 @@ https://tools.ietf.org/html/rfc4510   
 
 \[OIDC\]    Sakimura, N., Bradley, B., Jones, M., de Medeiros, B., and
 C. Mortimore    November 2014   
-https://openid.net/specs/openid-connect-core-1\_0.html.   
+https://openid.net/specs/openid-connect-core-1_0.html.   
 
 #### *Personal Identity Verification (PIV) of Federal Employees and Contractors*
 
@@ -412,7 +412,7 @@ allowing authentication from one domain to be honored in another.
 
 \[OIDC\]    Sakimura, N., Bradley, B., Jones, M., de Medeiros, B., and
 C. Mortimore    November 2014   
-https://openid.net/specs/openid-connect-core-1\_0.html.   
+https://openid.net/specs/openid-connect-core-1_0.html.   
 
 #### *Assertions and Protocols for the OASIS Security Assertion Markup Language (SAML) V2.0*
 
@@ -480,7 +480,7 @@ https://doi.org/10.6028/NIST.SP.800-63-3   
 
 \[SP 800-103\]    NIST Special Publication 800-103 (Draft)    October
 2006.   
-https://tsapps.nist.gov/publication/get\_pdf.cfm?pub\_id=906227   
+https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=906227   
 
 #### *Security and Privacy \-- A Framework For Identity Management \-- Part 1: Terminology And Concepts -- published*
 
@@ -604,134 +604,6 @@ add its own unique fields and help shape the consumer profile. Done
 appropriately, this service can be of value to both the company and the
 consumer.
 
-Industry Considerations
------------------------
-
-### Public sector vs private sector
-
-The article explains the unique use cases and challenges in the public
-sector and private sector that should be considered by the IAM
-practitioners. The article also provides the best practices and tips to
-deal with the use cases and challenges. Almost every service requires a
-different identification method in public sectors. Each governmental
-agency has unique requirements for authentication. As an example
-registering with your General Practitioners (GP) in the UK requires a
-National Health Service number, while HMRC directs users to its
-Government Gateway scheme to sign up and pay self-assessment taxes. This
-net result is citizens need to have a variety of different
-identification methods to complete straight forward tasks. The section
-article explains tips and best practices for navigating this issue.
-
-#### Strong identity proofing
-
-Identity proofing is essential to enable the digital government. But the
-extensive amount of data to prove the citizen identity has become one of
-the challenges. The section explains the tips on navigating some of the
-issues to create a strong yet consumer-friendly identity proofing.
-
-### Financial services The section explains the unique use cases and challenges in the financial industry that should be considered by IAM practitioners. The section also provides the best practices and tips to deal with the use cases and challenges.
-
-#### Integration with the legacy system
-
-This should be considered given that most of the banks or financial
-services have had their own system for a long time ago. Things like how
-to let existing customers apply for new services easily should be
-considered.
-
-#### High Level of Assurance on sensitive activities
-
-Most of the activities in the financial services industry involve action
-toward and accessing sensitive information, such as purchase goods,
-funds transfer, etc. Due to this, there must be a high LoA to make sure
-the right person performs the right activities. This article explores
-ways of having a higher level of assurance and protects consumers from
-fraud, e.g., perform step-up authentication, contextual authorization,
-pin validation, card validation, etc.
-
-#### The identities delegation
-
-An example is a child managing a bank account on behalf of an elderly
-parent. There are several challenges to deal with the use case. Some of
-them are to deal with the power of attorney, and audit to make sure the
-child doing things based on court authorization on behalf of the parent
-and not just sharing the parent's password with the child. The article
-explores the best practices to deal with the use case as it is becoming
-more common use cases across several sectors, such as financial and
-healthcare services.
-
-#### Financial regulations compliance and guidance from the government organizations
-
-There are specific regulations and organizational guidance in the
-financial industry that help security and convenience to the consumer,
-for example, Payment Service Directives 2 (PSD2), Open Banking,
-Financial Ask Task Force organization. The article explains about those
-and provides tips on how to comply with the regulation or follow the
-organizational guidance.
-
-### Healthcare
-
-The section explains the unique use cases and challenges in the
-financial industry that should be considered by IAM practitioners. The
-section also provides the best practices and tips to deal with those use
-cases and challenges.
-
-#### High Level of Assurance on sensitive data (LoA)
-
-Most data in the healthcare industry are sensitive data, e.g., a
-patient\'s profile, disease history, medical records, etc., and so a
-high level of assurance is required for making sure only the right
-person accesses the right data. There are several exceptions though. For
-example, a homeless man who doesn't have a fixed address and no form of
-authentication wants to access his data. The person deserves to access
-his data but he can't prove himself. The section explains ways and best
-practices for achieving the high LoA, e.g., step-authentication and to
-deal with the unique use case such as the homeless man case, e.g.,
-implements "known to the practitioners" or in other words the ability of
-a practitioner (doctor) to vouch for the patient's identity
-
-#### Identities delegation
-
-An example is the parent and child relationship where the parent has
-access to their child's medical records (provided consent was given).
-There are several challenges to deal with the use case. Some of them are
-to deal with the power of attorney and audit. The article explores the
-best practices to deal with the use case as it is becoming more common
-use cases across several sectors, such as financial and healthcare
-services.
-
-#### Healthcare regulations compliance
-
-The section explains the regulations in the healthcare industry such as
-the Health Insurance Portability and Accountability Act (HIPAA) and the
-tips to comply with those.
-
-### Game
-
-### The section explains unique use cases and challenges faced in the gaming industry that should be considered for IAM practitioners. The section also explains the tips and best practices to deal with those use cases and challenges.
-
-#### Local game privacy compliance
-
-The section explains the regulations in the game industry that should be
-considered while building CIAM such as General Data Protection
-Regulation (GDPR) for EU players, and Shutdown Law for Korean players
-and the tips to comply with those.
-
-#### Scalability and availability 
-
-There are around 1.2 billion players in the world. Knowing this, the
-scalability and the high availability are important factors for having a
-successful CIAM. The article explains the tips and best practices to
-handle the load and keep the game services online at all times. 
-
-#### Gaming and authentication
-
-Most mobile games do not require authentication at the start so the
-player could start playing immediately thus increasing the player
-engagement. This could be achieved by creating an anonymous account at
-the start of the game. The article explores the tips to deal with this
-"expectation", anonymous account implementation, and account upgrade
-implementation to help players secure their account.
-
 Privacy and Compliance
 ----------------------
 
@@ -773,6 +645,157 @@ variety of factors to choose from, ranging from asking a security
 question to capturing and confirming biometric data to using physical
 authentication keys, codes or One-Time Passwords (OTPs) over SMS/email
 or Time-based One-time Password (TOTP) (Google Authenticator). 
+
+Public Sector IAM
+=================
+
+Public sector vs private sector
+-------------------------------
+
+The article explains the unique use cases and challenges in the public
+sector and private sector that should be considered by the IAM
+practitioners. The article also provides the best practices and tips to
+deal with the use cases and challenges. Almost every service requires a
+different identification method in public sectors. Each governmental
+agency has unique requirements for authentication. As an example
+registering with your General Practitioners (GP) in the UK requires a
+National Health Service number, while HMRC directs users to its
+Government Gateway scheme to sign up and pay self-assessment taxes. This
+net result is citizens need to have a variety of different
+identification methods to complete straight forward tasks. The section
+article explains tips and best practices for navigating this issue.
+
+### Strong identity proofing
+
+Identity proofing is essential to enable the digital government. But the
+extensive amount of data to prove the citizen identity has become one of
+the challenges. The section explains the tips on navigating some of the
+issues to create a strong yet consumer-friendly identity proofing.
+
+Financial services
+==================
+
+The section explains the unique use cases and challenges in the
+financial industry that should be considered by IAM practitioners. The
+section also provides the best practices and tips to deal with the use
+cases and challenges.
+
+Integration with the legacy system
+----------------------------------
+
+This should be considered given that most of the banks or financial
+services have had their own system for a long time ago. Things like how
+to let existing customers apply for new services easily should be
+considered.
+
+High Level of Assurance on sensitive activities
+-----------------------------------------------
+
+Most of the activities in the financial services industry involve action
+toward and accessing sensitive information, such as purchase goods,
+funds transfer, etc. Due to this, there must be a high LoA to make sure
+the right person performs the right activities. This article explores
+ways of having a higher level of assurance and protects consumers from
+fraud, e.g., perform step-up authentication, contextual authorization,
+pin validation, card validation, etc.
+
+The identities delegation
+-------------------------
+
+An example is a child managing a bank account on behalf of an elderly
+parent. There are several challenges to deal with the use case. Some of
+them are to deal with the power of attorney, and audit to make sure the
+child doing things based on court authorization on behalf of the parent
+and not just sharing the parent's password with the child. The article
+explores the best practices to deal with the use case as it is becoming
+more common use cases across several sectors, such as financial and
+healthcare services.
+
+Financial regulations compliance and guidance from the government organizations
+-------------------------------------------------------------------------------
+
+There are specific regulations and organizational guidance in the
+financial industry that help security and convenience to the consumer,
+for example, Payment Service Directives 2 (PSD2), Open Banking,
+Financial Ask Task Force organization. The article explains about those
+and provides tips on how to comply with the regulation or follow the
+organizational guidance.
+
+Healthcare
+==========
+
+The section explains the unique use cases and challenges in the
+financial industry that should be considered by IAM practitioners. The
+section also provides the best practices and tips to deal with those use
+cases and challenges.
+
+High Level of Assurance on sensitive data (LoA)
+-----------------------------------------------
+
+Most data in the healthcare industry are sensitive data, e.g., a
+patient\'s profile, disease history, medical records, etc., and so a
+high level of assurance is required for making sure only the right
+person accesses the right data. There are several exceptions though. For
+example, a homeless person who doesn't have a fixed address and no form
+of authentication wants to access their data. The person deserves to
+access their data but they can't prove themself. The section explains
+ways and best practices for achieving the high LoA, e.g.,
+step-authentication and to deal with the unique use case such as the
+homeless person case, e.g., implements "known to the practitioners" or
+in other words the ability of a practitioner (doctor) to vouch for the
+patient's identity
+
+Identities delegation
+---------------------
+
+An example is the parent and child relationship where the parent has
+access to their child's medical records (provided consent was given).
+There are several challenges to deal with the use case. Some of them are
+to deal with the power of attorney and audit. The article explores the
+best practices to deal with the use case as it is becoming more common
+use cases across several sectors, such as financial and healthcare
+services.
+
+Healthcare regulations compliance
+---------------------------------
+
+The section explains the regulations in the healthcare industry such as
+the Health Insurance Portability and Accountability Act (HIPAA) and the
+tips to comply with those.
+
+Gaming Industry
+===============
+
+The section explains unique use cases and challenges faced in the gaming
+industry that should be considered for IAM practitioners. The section
+also explains the tips and best practices to deal with those use cases
+and challenges.
+
+Local game privacy compliance
+-----------------------------
+
+The section explains the regulations in the game industry that should be
+considered while building CIAM such as General Data Protection
+Regulation (GDPR) for EU players, and Shutdown Law for Korean players
+and the tips to comply with those.
+
+Scalability and availability 
+----------------------------
+
+There are around 1.2 billion players in the world. Knowing this, the
+scalability and the high availability are important factors for having a
+successful CIAM. The article explains the tips and best practices to
+handle the load and keep the game services online at all times. 
+
+Gaming and authentication
+-------------------------
+
+Most mobile games do not require authentication at the start so the
+player could start playing immediately thus increasing the player
+engagement. This could be achieved by creating an anonymous account at
+the start of the game. The article explores the tips to deal with this
+"expectation", anonymous account implementation, and account upgrade
+implementation to help players secure their account.
 
 Academic IAM
 ============
@@ -868,7 +891,7 @@ Security requirements
 ---------------------
 
 IAM Architecture and Solutions 
-===============================
+==============================
 
 IAM Architecture Overview *-- published*
 ----------------------------------------
@@ -882,7 +905,7 @@ IAM Architecture Overview *-- published*
 ### Elements of IGA Systems 
 
 Key Definitions and Terms 
---------------------------
+-------------------------
 
 Business System
 ---------------
