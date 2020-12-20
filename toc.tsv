@@ -1,0 +1,192 @@
+s.1	Introduction
+s.1.1	Introduction to Identity -- Part 1: Admin-time -- published
+s.1.2	Introduction to Identity -- Part 2: Run-time -- published
+s.1.3	Introduction to Identity -- Part 3: Use Cases -- article in progress
+s.1.4	Ethics 
+s.1.5	Information Security
+s.1.6	Trust in the IAM Context
+s.1.7	Privacy
+s.1.8	Identification and authentication
+s.1.8.1	Context and Identity
+s.1.8.2	Levels of Assurance
+s.1.9	Bias in Identity Systems
+s.2	Digital Identity
+s.2.1	Definition of Digital Identity
+s.2.1.1	Reputation
+s.2.2	Digital Identifiers -- published
+s.2.3	Digital Identity Lifecycle -- article in progress
+s.2.4	Proofing, Binding or Registration 
+s.2.4.1	Verification/Validation
+s.2.5	Credentials
+s.2.5.1	Introduction to Verifiable Credentials
+s.3	Access Control
+s.3.1	Introduction to Access Control -- published
+s.3.1.1	Authentication
+s.3.1.2	Dynamic Authentication (risk-based)
+s.3.1.3	Multi-Factor Authentication
+s.3.1.4	Single Sign-on Within a Domain
+s.3.1.5	Centralised Authentication Service
+s.3.1.6	Federated Authentication (between domains)
+s.3.1.7	Device Identity for Corroboration
+s.3.1.8	Fast Identity Online (FIDO) and its cousins
+s.3.1.9	Session Management
+s.3.2	Authorization
+s.3.2.1	Resources to Protect
+s.3.2.2	Authorisation
+s.3.2.2.1	ACL's
+s.3.2.2.2	RBAC
+s.3.2.2.3	ABAC / Dynamic Access Management / Policy Management solutions
+s.3.2.3	Privileged Access Management
+s.3.2.3.1	Alignment to Risk Management
+s.3.2.3.2	System Accounts
+s.3.3	Access Governance -- article in progress
+s.4	Laws, Regulations, and Standards
+s.4.1	Framework to Understand Legal Environment -- published
+s.4.2	Approach to Compliance for the Identity Practitioner
+s.4.3	Highlights of Selected Laws
+s.4.3.1	Europe
+s.4.3.1.1	Introduction to GDPR -- published
+s.4.3.1.2	IAM Implications of GDPR -- published
+s.4.3.2	United States
+s.4.3.2.1	Sarbanes-Oxley Section 404
+s.4.3.2.2	Health Insurance Portability and Accountability Act (HIPAA)
+s.4.3.2.3	Health Information Technology for Economic and Clinical Health Act (HITECH)
+s.4.3.2.4	Family Educational Rights and Privacy Act of 1974 (FERPA)
+s.4.3.2.5	Children's Online Privacy Protection Act (COPPA)
+s.4.3.2.6	Fair and Accurate Credit Transaction Act (FACTA)
+s.4.3.3	Canada
+s.4.3.3.1	Personal Information Protection and Electronic Documents Act (PIPED Act, or PIPEDA)
+s.4.4	Regulations
+s.4.5	Standards
+s.4.5.1	Architecture
+s.4.5.1.1	ISO/IEC 24760-2:2015 Information technology -- Security techniques -- A framework for identity management -- Part 2: Reference architecture and requirements -- published
+s.4.5.2	Assurance
+s.4.5.2.1	Directive on Identity Management - Appendix A: Standard on Identity and Credential Assurance
+s.4.5.2.2	Digital Identity Guidelines
+s.4.5.2.3	Guide for Applying the Risk Management Framework to Federal Information Systems: A Security Life Cycle Approach
+s.4.5.3	Authentication
+s.4.5.3.1	Digital Identity Guidelines: Authentication and Lifecycle Management
+s.4.5.3.2	Introduction to Public Key Technology and the Federal PKI Infrastructure
+s.4.5.3.3	Lightweight Directory Access Protocol (LDAP): Technical Specification Road Map
+s.4.5.3.4	OpenID Connect Core 1.0 incorporating errata set 1
+s.4.5.3.5	Personal Identity Verification (PIV) of Federal Employees and Contractors
+s.4.5.3.6	Biometric Data Specification for Personal Identity Verification
+s.4.5.4	Authorization
+s.4.5.4.1	The OAuth 2.0 Authorization Framework
+s.4.5.4.2	User-Managed Access (UMA) Profile of OAuth 2.0
+s.4.5.5	Federation
+s.4.5.5.1	OpenID Connect Core 1.0 incorporating errata set 1
+s.4.5.5.2	Assertions and Protocols for the OASIS Security Assertion Markup Language (SAML) V2.0
+s.4.5.5.3	Digital Identity Guidelines: Federation and Assertions
+s.4.5.6	Lifecycle
+s.4.5.6.1	Standard on Identity and Credential Assurance
+s.4.5.6.2	Digital Identity Guidelines: Enrollment and Identity Proofing Requirements
+s.4.5.6.3	Digital Identity Guidelines: Authentication and Lifecycle Management
+s.4.5.6.4	System for Cross-domain Identity Management: Protocol
+s.4.5.6.5	System for Cross-domain Identity Management: Core Schema
+s.4.5.7	Operations
+s.4.5.7.1	Information technology -- Security techniques -- A framework for identity management -- Part 3: Practice -- published
+s.4.5.8	Terminology
+s.4.5.8.1	Digital Identity Guidelines
+s.4.5.8.2	An Ontology of Identity Credentials Part I: Background and Formulation
+s.4.5.8.3	Security and Privacy -- A Framework For Identity Management -- Part 1: Terminology And Concepts -- published
+s.4.5.8.4	ISO/IEC 24760-1:2019 IT Security and Privacy -- A Framework For Identity Management -- Part 1: Terminology And Concepts
+s.4.6	Emerging Societal Norms
+s.4.6.1	Managing Consent 
+s.5	Workforce IAM / Internal IAM
+s.5.1	Key Characteristics of Workforce IAM
+s.5.2	IAM Processes
+s.5.2.1	Joiner-Mover-Leaver
+s.5.2.2	HR Ownership
+s.5.2.3	Provisioning (On-boarding and Off-boarding)
+s.5.2.4	Role Management
+s.5.2.5	Re-certification
+s.5.3	Compliance
+s.5.4	Analytics and Intelligence
+s.5.5	Handling Business Partners' People
+s.6	Consumer/Citizen IAM
+s.6.1	Key Characteristics of CIAM
+s.6.2	CIAM vs Workforce IAM
+s.6.3	Consumer Journey
+s.6.3.1	Registration of consumers
+s.6.3.2	Authentication assurance (meeting LoA requirements)
+s.6.3.3	Data usage consent
+s.6.3.4	Social sign-in and sign-up
+s.6.4	Unified consumer view
+s.6.5	Privacy and Compliance
+s.6.6	Security
+s.6.6.1	Adaptive authentication
+s.6.6.2	Multi-Factor Authentication (MFA)
+s.7	Public Sector IAM
+s.7.1	Public sector vs private sector
+s.7.1.1	Strong identity proofing
+s.8	Financial services
+s.8.1	Integration with the legacy system
+s.8.2	High Level of Assurance on sensitive activities
+s.8.3	The identities delegation
+s.8.4	Financial regulations compliance and guidance from the government organizations
+s.9	Healthcare
+s.9.1	High Level of Assurance on sensitive data (LoA)
+s.9.2	Identities delegation
+s.9.3	Healthcare regulations compliance
+s.10	Gaming Industry
+s.10.1	Local game privacy compliance
+s.10.2	Scalability and availability 
+s.10.3	Gaming and authentication
+s.11	Academic IAM
+s.11.1	Key Characteristics of Academic IAM
+s.11.1.1	K-12 IAM
+s.11.1.2	Higher Education IAM
+s.11.1.2.1	Institutional Dynamics
+s.11.1.2.2	Campus Libraries and IAM
+s.11.1.2.3	Research Collaborations and IAM
+s.11.1.2.4	Academic Hospital Considerations
+s.11.1.2.5	Considerations for IAM for Small, Medium, and Large Campuses
+s.11.2	Risk Assessment for IAM in Academia
+s.12	Non-Human Entity -- article in progress
+s.12.1	Operational Technology (OT)
+s.12.2	Service Accounts
+s.12.3	IoT Devices
+s.12.3.1	IoT Sectors
+s.12.3.1.1	Home Automation
+s.12.3.1.2	Personal (wearables)
+s.12.3.1.3	Implants
+s.12.3.1.4	Plant Automation
+s.12.3.1.5	Vehicle
+s.12.3.1.6	Smart Cities
+s.12.3.1.7	Agriculture
+s.12.3.1.8	Building/Industrial
+s.12.3.1.9	Utilities
+s.12.4	RPA / robotics
+s.12.5	Security requirements
+s.13	IAM Architecture and Solutions 
+s.13.1	IAM Architecture Overview -- published
+s.13.1.1	Architecture Patterns 
+s.13.1.2	Technical Architecture 
+s.13.1.3	Identity Governance 
+s.13.1.4	Elements of IGA Systems 
+s.13.2	Key Definitions and Terms 
+s.13.3	Business System
+s.13.3.1	Business Processes
+s.13.3.1.1	Recertification of accounts
+s.13.4	Recommended Practices
+s.13.4.1	Design for security
+s.14	Operational Considerations
+s.14.1	Account recovery
+s.14.2	Call centers
+s.14.3	Engagement of user for their own security
+s.14.4	Security events and operations
+s.15	Project Management
+s.15.1	Project Management Institute Framework and Project Management Office Issues -- published
+s.15.2	New Implementation Projects
+s.15.3	Migration Projects
+s.16	IAM Knowledge Sharing
+s.16.1	Independent Organizations -- published
+s.16.2	Standards Bodies
+s.16.3	Analyst Organizations
+s.16.4	Conferences
+s.17	Advanced Topics -- Parking Lot
+s.17.1	Digital Legacy - handling deceased persons' digital ID (Advanced Topic)
+s.17.2	Verifiable Credentials
+s.17.3	Self-Sovereign Identity
+s.17.3.1	Blockchain ID
