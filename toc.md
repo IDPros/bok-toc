@@ -44,7 +44,7 @@ Introduction to Identity -- Part 3: Use Cases *-- article in progress*
 ----------------------------------------------------------------------
 
 Ethics 
-------
+-------
 
 Information Security
 --------------------
@@ -109,7 +109,7 @@ provides a list of activities that may occur between the creation of the
 digital identity and its disposal.
 
 Proofing, Binding or Registration 
----------------------------------
+----------------------------------
 
 Abstract: In many contexts, it is important to relate a human to a
 digital account.  Typically it matters in commercial and institutional
@@ -190,9 +190,7 @@ Authorization
 
 #### RBAC
 
-#### ABAC / Dynamic Access Management
-
-##### Policy Management solutions
+#### ABAC / Dynamic Access Management / Policy Management solutions
 
 ### Privileged Access Management
 
@@ -249,8 +247,8 @@ federation for certain aspects of the customer journey;
 b\) A system that relies entirely on external \"identity providers\",
 with operations in several jurisdictions;
 
-c\) A multi-jurisdiction employee/contractor-focused system, which
-wishes to use biometric techniques for authentication.
+c\) A multi-jurisdiction employee/contractor-focused system, which wishes
+to use biometric techniques for authentication.
 
 The general approach is to use the jurisdictions, participants,
 federations and technologies under consideration in order to locate
@@ -360,7 +358,7 @@ https://doi.org/10.6028/NIST.SP.800-63b   
 #### *Introduction to Public Key Technology and the Federal PKI Infrastructure*
 
 \[SP 800-32\]    NIST Special Publication 800-32    February 2001.   
-https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=151247   
+https://tsapps.nist.gov/publication/get\_pdf.cfm?pub\_id=151247   
 
 #### *Lightweight Directory Access Protocol (LDAP): Technical Specification Road Map*
 
@@ -371,7 +369,7 @@ https://tools.ietf.org/html/rfc4510   
 
 \[OIDC\]    Sakimura, N., Bradley, B., Jones, M., de Medeiros, B., and
 C. Mortimore    November 2014   
-https://openid.net/specs/openid-connect-core-1_0.html.   
+https://openid.net/specs/openid-connect-core-1\_0.html.   
 
 #### *Personal Identity Verification (PIV) of Federal Employees and Contractors*
 
@@ -412,7 +410,7 @@ allowing authentication from one domain to be honored in another.
 
 \[OIDC\]    Sakimura, N., Bradley, B., Jones, M., de Medeiros, B., and
 C. Mortimore    November 2014   
-https://openid.net/specs/openid-connect-core-1_0.html.   
+https://openid.net/specs/openid-connect-core-1\_0.html.   
 
 #### *Assertions and Protocols for the OASIS Security Assertion Markup Language (SAML) V2.0*
 
@@ -480,7 +478,7 @@ https://doi.org/10.6028/NIST.SP.800-63-3   
 
 \[SP 800-103\]    NIST Special Publication 800-103 (Draft)    October
 2006.   
-https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=906227   
+https://tsapps.nist.gov/publication/get\_pdf.cfm?pub\_id=906227   
 
 #### *Security and Privacy \-- A Framework For Identity Management \-- Part 1: Terminology And Concepts -- published*
 
@@ -780,7 +778,7 @@ Regulation (GDPR) for EU players, and Shutdown Law for Korean players
 and the tips to comply with those.
 
 Scalability and availability 
-----------------------------
+-----------------------------
 
 There are around 1.2 billion players in the world. Knowing this, the
 scalability and the high availability are important factors for having a
@@ -891,7 +889,7 @@ Security requirements
 ---------------------
 
 IAM Architecture and Solutions 
-==============================
+===============================
 
 IAM Architecture Overview *-- published*
 ----------------------------------------
@@ -905,7 +903,7 @@ IAM Architecture Overview *-- published*
 ### Elements of IGA Systems 
 
 Key Definitions and Terms 
--------------------------
+--------------------------
 
 Business System
 ---------------
