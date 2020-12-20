@@ -1,5 +1,5 @@
 #!/bin/zsh
-
+# takes source toc.doc, creates tex, md, pdf and tsv output files
 pandoc "toc.docx" -o "toc.tex"
 echo created toc.tex
 pandoc "toc.docx" -o "toc.md"
