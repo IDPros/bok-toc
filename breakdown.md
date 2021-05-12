@@ -16,9 +16,10 @@
    6. Useful Models - 
       1. Policy model - PEP etc
       2. Role models
-      3. Separation of Duties    1. Role based 
-      2. Policy based
-      3. Relationship based - early research
+      3. Separation of Duties
+      4. Role based 
+      5. Policy based
+      6. Relationship based - early research
    5. Additional controls to lower risk of HIGHLY privileged users, such as session recording, credential checkout
 
    7. impersonation - describes the use-cases where one person acting as another make sense and what  added controls may be desired.
