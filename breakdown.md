@@ -29,7 +29,7 @@
    2. Evidence and chain of custody
    3. Creation and delivery of credentials
       1. Self-sovereign credentials (including FIDO style)
-4. Articles on IAM-related security essentials 
+4. Articles on IAM-related security essentials - needed to understand mechanisms involved in authentication and access control
    1. encryption primer
       1. hashes and cryptographic hashes
       2. symmetric and asymmetric cryptography
@@ -37,12 +37,15 @@
       4. A short history of public key infrastructure (PKI)
    2. Trust boundaries and domains of administration
    3. Logs, monitors and forensics
-4. Risks, Threats and responses
-   1. Common ways to evaluate and register risks
-   1. Threat modeling
-   2. social engineering
-   3. common exploitations
-   4. vulnerabilities and patches
-5. Articles on different common IAM architectures, specifically on-premise, hybrid, or cloud-based identity architecture, and the pros and cons of each [ This appears to be calling for a deeper dive on Technical Architecture - these topics are already covered briefly in the published introduction]
+   4. Risks, Threats and responses
+      1. Common ways to evaluate and register risks
+      1. Threat modeling
+      2. social engineering
+      3. common exploitations
+      4. vulnerabilities and patches
+5. Articles on different common IAM architectures, specifically on-premise, hybrid, or cloud-based identity architecture, and the pros and cons of each [ This appears to be calling for a deeper dive on Technical Architecture - these topics are already covered briefly in the published introduction] - GBD to breakdown.
 6. A single article that describe when, where and how federated identity management is appropriate.  This is not a technical how-to, but establishes whether it makes sense for a use-case.  The "how" portion refers to organzing framework between the domains.
-   1. start from the idea of Trust boundaries and domains of administration.  This will provide a framework to discuss the use-cases of the major sectors:  for instance, E-Government identity federation has different pros and cons than enterprise, which is different again from academia
+   1. start from the idea of Trust boundaries and domains of administration.  
+   2. discuss the use-cases and what problems they are trying to solve
+      3. use case 1
+      4. use case n 
