@@ -45,90 +45,73 @@
       2. social engineering
       3. common exploitations
       4. vulnerabilities and patches
-
-- Articles on different common IAM architectures
+## Articles on different common IAM architectures
 
    [ original call from certification cmte: specifically on-premise, hybrid, or cloud-based identity architecture, and the pros and cons of each ]
    [ This appears to be calling for a deeper dive on Technical Architecture - these topics are already covered briefly in the published introduction - GBD to breakdown.]
 
-   These articles are based on the ISO model as an identity management system(IMS) and relying systems which use the IMS.  The model is extended so that authorization and governance can be included. The first article provides the set of components and a restatement/extension of the ISO framing.  A set of connectors is also described at a functional level (variously called ports, interfaces and protocols).
+   These articles are based on the ISO model as an identity management system(IMS) and relying systems which use the IMS.  Based on the following two charts an modelthat is both simplified and extended is shown.  The extension allows authorization and governance can be included. It is simplified to remove the UML fine points, which will be off putting to the typical reader. 
 
-   A set of articles follows each describing a use-case in particular architecture to illustrate a set of components and how they are connected to perform the use-case.
+#### Technical Architecture Model
 
-   The use-case articles indicate which type or types of system architectures are supported by the use-case (The styles are described in  "Introduction to IAM Architecture," IDPro Body of Knowledge" article: Host, Client-Server, N-tier, Hub & Spoke, Remote Access, Cloud Environments.  
+The FIRST article provides the set of components and a restatement/extension of the ISO framing.  A set of connectors is also described at a functional level.  These generic assets will be shown with implementations in the use-cases which follow.
 
-   The use-case articles follow a common structure:
+   ![image](base-use-case.png "a")
 
+   
+
+   ![](component-model.png)
+
+### Technical Use Cases   
+
+The FOLLOWING articles describe a single use-case as implemented in a  particular architecture to illustrate a set of components and how they are connected and interact to perform the use-case.  These articles are group by the functions defined in the FIRST article (things like authentication, provisioning, authorization...)
+
+The use-case articles follow a common structure:
    - Use-case name
-
-   - Architecture Type
-
-   - Functional description
-
+   - Architecture Type or types (The styles are described in  "Introduction to IAM Architecture," IDPro Body of Knowledge" article: Host, Client-Server, N-tier, Hub & Spoke, Remote Access, Cloud Environments.  )
+   - Short description
    - Actors, components and connectors included (with a diagram).  The components and connectors refer to the abstract architectural components and their implementations in this use-case.
    - Prerequisites
-
-   - Description of how the components work together and some level of detail on how.
+   - Exposition on how the components work together and some level of detail.  In general this describes the external view point.  Internals of the component are minimized.
    - Where to find more information on this and adjacent use-cases
 
-   
+Example: of a use-case.  This example is chosen to indicate how constrained these articles are intended to be.  There could be quite a few variations on Windows login.  
 
-   Example: of a use-case.  This example is chosen to indicate how constrained these articles are intended to be.  There could be quite a few variations on Windows login.  
-
-   Name: Employee logs in - Interactive domain login using password (Kerberos)
-
+   Name: Employee logs in to Windows domain - Kerberos
+   Short Description: Interactive domain login using password (Kerberos)
    Architecture: Client-Server
-
    Description: An existing employee logs into the corporate Windows environment with a password.
-
    Actors/Components: User (employee), network attached computer running Windows 10, Microsoft Active Directory (IDENTITY REGISTER),  Kerberos protocol (AUTHENTICATION)
 
-   
+### List of use-cases 
+
+The list of use-case articles is intended to grow over time. [seeded 5/20/21 - discuss with cmte for more]
+
+#### Function: Authentication
+1. Employee logs in to Windows domain - Kerberos
+1. Customer logs in from web browser - OpenID Connect
+1. Cloud service authenticates via delegation - SAML
+
+
+#### Function: Provisioning
+1. Directory absorbs changed people information from HR - LDAP
+1. Directory synchronizes with downstream resource - SCIM
+
+#### Function: Attribute Exchange
+
+1. Attributes are provided in assertion - SAML
+2. Attributes are requested - OpenID Connect
+
+#### Function: Authorization
+
+1. File system authorizes access - Windows
+2. Application authorizes based on attributes - custom
+3. Application delegates to policy service - OAuth
+4. Cloud service authorizes based on role assumed from single signon - Cloud
 
    
 
-   
-
-   1. Identity Management System
-
-      1. Identity Register
-         1. Logical aspects: Uniqueness. Fully qualified user names / name spaces, Credentials, Other attributes
-         2. Storage
-            1. Directory - Heirarchical, Multiple values
-            2. Database - frequently relational
-            3. Virtual directory - abstraction over several Identity information source(s)
-      2. Import / Export
-         1. Identity information source(s) 
-         2. Authoritative source and legal copies
-      3. Principal and Credential Management - lifecycle of principals and credentials (self-service, workflows, administration).  Includes identity proofing and verification
-      4. Audit Repository - logs operational events. Protection and controlled access.
-      5. Service Provisioning - provides identity information to a relying party
-         1. Overt provisioning - e.g. SCIM
-         2. Just in time provisioning or ephemeral
-         3. Assertions as part of Authentication
-         4. Attribute Pull
-      6. Authentication
-         1. LDAP
-         2. Kerberos
-         3. ...
-      7. Federation services - discovery, identity assertions, attribute retrieval
-
-   3. Relying Systems (Parties) concerns that may be shared by IMS
-
-      1. Sessions
-      2. Access Control
-      1. Binding of identity to non-identity data
-         2. IGA extends the Principal and Credential Managment to include access control Policies, Rules, Roles
-
-   3. Protocols that connect the Identity Management System and the Relying Systems
-
-      1. 
-
-   4. Worked examples
-
-      
-
-      
+---
 
 - A single article that describe when, where and how federated identity management is appropriate.  This is not a technical how-to, but establishes whether it makes sense for a use-case.  The "how" portion refers to organzing framework between the domains.
    1. start from the idea of Trust boundaries and domains of administration.  
