@@ -1,29 +1,10 @@
-# Body of Knowledge - Table of Contents - Work in progress
-Collaboration on the table of contents for IDPro Body of Knowledge
+# Body of Knowledge - Desired Table of Contents
 
-To propose a change to the TOC edit the MS Word document, toc.docx.
-When ready submit a pull request.
-The maintainer will run the script, which will generate the .pdf version with new section numbers.
+The IDPro BoK Table of Contents for Volumes 1 and 2 are aspirational documents. Their purpose is to list what material IDPro intends for the BoK and to put that list in context so that potential authors and readers can see where a topic falls and what material we expect an article to cover. If an article has already been published on a topic in the BoK, its abstract and a reference link are included in the body of the document. If not, notes on the desired content are included (this is a work in progress).
 
-## Maintenance
-To run the script from the main directory run  `./scripts/totex.sh`
+Readers may take this list of topics and consider it a self-study guide for what information to study to be considered proficient as an Identity and Access Management (IAM) practitioner. Volume 1 is intended to be topics foundational to the field of IAM, whereas Volume 2 is intended to cover more advanced and/or sector-specific areas.
 
-This will create toc.tex, toc.md and maintoc.pdf.
+Individuals interested in submitting content for the IDPro BoK are encouraged to review the information posted on its [Submissions](https://bok.idpro.org/submissions/) page.
 
-## History
-Text was downloaded from ether pad into IDproTOC.txt.
-
-The clean.sh script (in the scripts folder) converted it to a markdown format.
-
-Pandoc converted that to a .docx format.
-
-Manual edits - cleaned up a few things - see the history.
-
-At each commit the word format exported to markdown so that the diff feature can be used.
-
-The totex.sh script uses Pandoc and and Xelatex to create a .tex format that is compiled into a .pdf.
-
-## Current state
-
-12/15/2018 Levels one and two are in fair shape.  Levels below that need quite a bit of work.
+If you have questions or feedback on the Table of Contents itself, please submit an issue in this repository. Pull requests are also welcome and will be reviewed by the IDPro BoK Committee.
 
